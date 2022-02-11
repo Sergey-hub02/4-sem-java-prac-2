@@ -115,13 +115,13 @@ public class Human {
   @Override
   public String toString() {
     return (
-      "Human {\n" +
+      "Human {\n"
       + "  age: " + this.age + "\n"
       + "  firstName: " + this.firstName + "\n"
       + "  lastName: " + this.lastName + "\n"
       + "  birthDate: " + this.birthDate.toString() + "\n"
       + "  weight: " + this.weight + "\n"
       + "}\n"
-    )
+    );
   }
 }
